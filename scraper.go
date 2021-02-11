@@ -6,9 +6,15 @@ import (
 	"github.com/gocolly/colly"
 )
 
+type song struct {
+	title  string
+	artist string
+}
+
 func main() {
 	// Instantiate default collector
 	c := colly.NewCollector()
+	songs := []song{}
 
 	c.OnHTML(".chart-element__information", func(e *colly.HTMLElement) {
 		// Find song using an attribute selector
@@ -17,7 +23,8 @@ func main() {
 		artist := e.ChildText(".text--truncate")
 
 		// Print song info
-		fmt.Printf("Song found: %q -> %s\n", title, artist)
+		// fmt.Printf("Song found: %q -> %s\n", title, artist)
+		songs = append(songs, song{title, artist})
 	})
 
 	c.OnRequest(func(r *colly.Request) {
@@ -33,6 +40,7 @@ func main() {
 	})
 	c.OnScraped(func(r *colly.Response) {
 		fmt.Println("Finished", r.Request.URL)
+		fmt.Println(songs)
 	})
 
 	c.Visit("https://www.billboard.com/charts/hot-100")
