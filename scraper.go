@@ -24,6 +24,7 @@ func main() {
 
 		// Print song info
 		// fmt.Printf("Song found: %q -> %s\n", title, artist)
+		// add songs to list
 		songs = append(songs, song{title, artist})
 	})
 
@@ -38,8 +39,10 @@ func main() {
 	c.OnResponse(func(r *colly.Response) {
 		fmt.Println("Visited", r.Request.URL)
 	})
+
 	c.OnScraped(func(r *colly.Response) {
 		fmt.Println("Finished", r.Request.URL)
+		// print songs list
 		fmt.Println(songs)
 	})
 
