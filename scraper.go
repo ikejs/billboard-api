@@ -42,8 +42,10 @@ func main() {
 
 	c.OnScraped(func(r *colly.Response) {
 		fmt.Println("Finished", r.Request.URL)
-		// print songs list
-		fmt.Println(songs)
+		// print songs
+		for i, s := range songs {
+			fmt.Println("#%v | %v - %v", i+1, s.artist, s.title)
+		}
 	})
 
 	c.Visit("https://www.billboard.com/charts/hot-100")
