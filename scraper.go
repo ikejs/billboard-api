@@ -1,7 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"encoding/json"
+	"log"
+	"net/http"
 
 	"github.com/gocolly/colly"
 )
@@ -11,7 +13,7 @@ type song struct {
 	artist string
 }
 
-func main() {
+func scrapeSongs() []song {
 	// Instantiate default collector
 	c := colly.NewCollector()
 	songs := []song{}
@@ -28,25 +30,29 @@ func main() {
 		songs = append(songs, song{title, artist})
 	})
 
-	c.OnRequest(func(r *colly.Request) {
-		fmt.Println("Visiting", r.URL)
-	})
-
-	c.OnError(func(_ *colly.Response, err error) {
-		fmt.Println("Something went wrong:", err)
-	})
-
-	c.OnResponse(func(r *colly.Response) {
-		fmt.Println("Visited", r.Request.URL)
-	})
-
-	c.OnScraped(func(r *colly.Response) {
-		fmt.Println("Finished", r.Request.URL)
-		// print songs
-		for i, s := range songs {
-			fmt.Println("#%v | %v - %v", i+1, s.artist, s.title)
-		}
-	})
-
 	c.Visit("https://www.billboard.com/charts/hot-100")
+	return songs
+}
+
+func renderSongs(w http.ResponseWriter, r *http.Request) {
+	js, err := json.Marshal(scrapeSongs())
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
+func handleRequests() {
+	http.HandleFunc("/", renderSongs)
+	log.Fatal(http.ListenAndServe(":10000", nil))
+}
+
+func main() {
+
+	// API
+	handleRequests()
+
 }
