@@ -1,0 +1,502 @@
+[
+ {
+  "title": "Drivers License",
+  "artist": "Olivia Rodrigo",
+  "rank": "1"
+ },
+ {
+  "title": "Up",
+  "artist": "Cardi B",
+  "rank": "2"
+ },
+ {
+  "title": "Go Crazy",
+  "artist": "Chris Brown \u0026 Young Thug",
+  "rank": "3"
+ },
+ {
+  "title": "34+35",
+  "artist": "Ariana Grande",
+  "rank": "4"
+ },
+ {
+  "title": "Blinding Lights",
+  "artist": "The Weeknd",
+  "rank": "5"
+ },
+ {
+  "title": "Save Your Tears",
+  "artist": "The Weeknd",
+  "rank": "6"
+ },
+ {
+  "title": "Mood",
+  "artist": "24kGoldn Featuring iann dior",
+  "rank": "7"
+ },
+ {
+  "title": "Calling My Phone",
+  "artist": "Lil Tjay Featuring 6LACK",
+  "rank": "8"
+ },
+ {
+  "title": "Positions",
+  "artist": "Ariana Grande",
+  "rank": "9"
+ },
+ {
+  "title": "Levitating",
+  "artist": "Dua Lipa Featuring DaBaby",
+  "rank": "10"
+ },
+ {
+  "title": "What You Know Bout Love",
+  "artist": "Pop Smoke",
+  "rank": "11"
+ },
+ {
+  "title": "Therefore I Am",
+  "artist": "Billie Eilish",
+  "rank": "12"
+ },
+ {
+  "title": "Back In Blood",
+  "artist": "Pooh Shiesty Featuring Lil Durk",
+  "rank": "13"
+ },
+ {
+  "title": "Whoopty",
+  "artist": "CJ",
+  "rank": "14"
+ },
+ {
+  "title": "For The Night",
+  "artist": "Pop Smoke Featuring Lil Baby \u0026 DaBaby",
+  "rank": "15"
+ },
+ {
+  "title": "Dakiti",
+  "artist": "Bad Bunny \u0026 Jhay Cortez",
+  "rank": "16"
+ },
+ {
+  "title": "Good Days",
+  "artist": "SZA",
+  "rank": "17"
+ },
+ {
+  "title": "I Hope",
+  "artist": "Gabby Barrett Featuring Charlie Puth",
+  "rank": "18"
+ },
+ {
+  "title": "You're Mines Still",
+  "artist": "Yung Bleu Featuring Drake",
+  "rank": "19"
+ },
+ {
+  "title": "Better Together",
+  "artist": "Luke Combs",
+  "rank": "20"
+ },
+ {
+  "title": "You Broke Me First.",
+  "artist": "Tate McRae",
+  "rank": "21"
+ },
+ {
+  "title": "Streets",
+  "artist": "Doja Cat",
+  "rank": "22"
+ },
+ {
+  "title": "On Me",
+  "artist": "Lil Baby",
+  "rank": "23"
+ },
+ {
+  "title": "My Ex's Best Friend",
+  "artist": "Machine Gun Kelly X blackbear",
+  "rank": "24"
+ },
+ {
+  "title": "Good Time",
+  "artist": "Niko Moon",
+  "rank": "25"
+ },
+ {
+  "title": "Throat Baby (Go Baby)",
+  "artist": "BRS Kash",
+  "rank": "26"
+ },
+ {
+  "title": "Holy",
+  "artist": "Justin Bieber Featuring Chance The Rapper",
+  "rank": "27"
+ },
+ {
+  "title": "Best Friend",
+  "artist": "Saweetie Featuring Doja Cat",
+  "rank": "28"
+ },
+ {
+  "title": "Willow",
+  "artist": "Taylor Swift",
+  "rank": "29"
+ },
+ {
+  "title": "Lonely",
+  "artist": "Justin Bieber \u0026 benny blanco",
+  "rank": "30"
+ },
+ {
+  "title": "Bang!",
+  "artist": "AJR",
+  "rank": "31"
+ },
+ {
+  "title": "No More Parties",
+  "artist": "Coi Leray Featuring Lil Durk",
+  "rank": "32"
+ },
+ {
+  "title": "Anyone",
+  "artist": "Justin Bieber",
+  "rank": "33"
+ },
+ {
+  "title": "Lemonade",
+  "artist": "Internet Money \u0026 Gunna Featuring Don Toliver \u0026 NAV",
+  "rank": "34"
+ },
+ {
+  "title": "Just The Way",
+  "artist": "Parmalee x Blanco Brown",
+  "rank": "35"
+ },
+ {
+  "title": "Put Your Records On",
+  "artist": "Ritt Momney",
+  "rank": "36"
+ },
+ {
+  "title": "Down To One",
+  "artist": "Luke Bryan",
+  "rank": "37"
+ },
+ {
+  "title": "Without You",
+  "artist": "The Kid LAROI",
+  "rank": "38"
+ },
+ {
+  "title": "Laugh Now Cry Later",
+  "artist": "Drake Featuring Lil Durk",
+  "rank": "39"
+ },
+ {
+  "title": "Starting Over",
+  "artist": "Chris Stapleton",
+  "rank": "40"
+ },
+ {
+  "title": "Body",
+  "artist": "Megan Thee Stallion",
+  "rank": "41"
+ },
+ {
+  "title": "Cry Baby",
+  "artist": "Megan Thee Stallion Featuring DaBaby",
+  "rank": "42"
+ },
+ {
+  "title": "Time Today",
+  "artist": "Moneybagg Yo",
+  "rank": "43"
+ },
+ {
+  "title": "What's Your Country Song",
+  "artist": "Thomas Rhett",
+  "rank": "44"
+ },
+ {
+  "title": "Damage",
+  "artist": "H.E.R.",
+  "rank": "45"
+ },
+ {
+  "title": "Beers And Sunshine",
+  "artist": "Darius Rucker",
+  "rank": "46"
+ },
+ {
+  "title": "Beat Box",
+  "artist": "SpotemGottem",
+  "rank": "47"
+ },
+ {
+  "title": "The Good Ones",
+  "artist": "Gabby Barrett",
+  "rank": "48"
+ },
+ {
+  "title": "We're Good",
+  "artist": "Dua Lipa",
+  "rank": "49"
+ },
+ {
+  "title": "Dynamite",
+  "artist": "BTS",
+  "rank": "50"
+ },
+ {
+  "title": "Buss It",
+  "artist": "Erica Banks",
+  "rank": "51"
+ },
+ {
+  "title": "Wasted On You",
+  "artist": "Morgan Wallen",
+  "rank": "52"
+ },
+ {
+  "title": "Clouds",
+  "artist": "NF",
+  "rank": "53"
+ },
+ {
+  "title": "Telepatia",
+  "artist": "Kali Uchis",
+  "rank": "54"
+ },
+ {
+  "title": "Monsters",
+  "artist": "All Time Low Featuring Demi Lovato \u0026 blackbear",
+  "rank": "55"
+ },
+ {
+  "title": "Goosebumps",
+  "artist": "Travis Scott \u0026 HVME",
+  "rank": "56"
+ },
+ {
+  "title": "Golden",
+  "artist": "Harry Styles",
+  "rank": "57"
+ },
+ {
+  "title": "La Noche de Anoche",
+  "artist": "Bad Bunny \u0026 ROSALIA",
+  "rank": "58"
+ },
+ {
+  "title": "My Head And My Heart",
+  "artist": "Ava Max",
+  "rank": "59"
+ },
+ {
+  "title": "Long Live",
+  "artist": "Florida Georgia Line",
+  "rank": "60"
+ },
+ {
+  "title": "Test Drive",
+  "artist": "Ariana Grande",
+  "rank": "61"
+ },
+ {
+  "title": "Astronaut In The Ocean",
+  "artist": "Masked Wolf",
+  "rank": "62"
+ },
+ {
+  "title": "Heartbreak Anniversary",
+  "artist": "Giveon",
+  "rank": "63"
+ },
+ {
+  "title": "Sand In My Boots",
+  "artist": "Morgan Wallen",
+  "rank": "64"
+ },
+ {
+  "title": "Heat Waves",
+  "artist": "Glass Animals",
+  "rank": "65"
+ },
+ {
+  "title": "Lady",
+  "artist": "Brett Young",
+  "rank": "66"
+ },
+ {
+  "title": "Hit Bout It",
+  "artist": "Lil Yachty Featuring Kodak Black",
+  "rank": "67"
+ },
+ {
+  "title": "Forever After All",
+  "artist": "Luke Combs",
+  "rank": "68"
+ },
+ {
+  "title": "Hole In The Bottle",
+  "artist": "Kelsea Ballerini",
+  "rank": "69"
+ },
+ {
+  "title": "Tyler Herro",
+  "artist": "Jack Harlow",
+  "rank": "70"
+ },
+ {
+  "title": "Girl Like Me",
+  "artist": "Black Eyed Peas X Shakira",
+  "rank": "71"
+ },
+ {
+  "title": "Finesse Out The Gang Way",
+  "artist": "Lil Durk Featuring Lil Baby",
+  "rank": "72"
+ },
+ {
+  "title": "Hell Of A View",
+  "artist": "Eric Church",
+  "rank": "73"
+ },
+ {
+  "title": "Lifestyle",
+  "artist": "Jason Derulo Featuring Adam Levine",
+  "rank": "74"
+ },
+ {
+  "title": "Momma's House",
+  "artist": "Dustin Lynch",
+  "rank": "75"
+ },
+ {
+  "title": "Masterpiece",
+  "artist": "DaBaby",
+  "rank": "76"
+ },
+ {
+  "title": "Somebody Like That",
+  "artist": "Tenille Arts",
+  "rank": "77"
+ },
+ {
+  "title": "Opp Stoppa",
+  "artist": "YBN Nahmir Featuring 21 Savage",
+  "rank": "78"
+ },
+ {
+  "title": "Neighbors",
+  "artist": "Pooh Shiesty Featuring BIG30",
+  "rank": "79"
+ },
+ {
+  "title": "Somebody's Problem",
+  "artist": "Morgan Wallen",
+  "rank": "80"
+ },
+ {
+  "title": "You Got It",
+  "artist": "VEDO",
+  "rank": "81"
+ },
+ {
+  "title": "Bandido",
+  "artist": "Myke Towers \u0026 Juhn",
+  "rank": "82"
+ },
+ {
+  "title": "Moonwalking In Calabasas",
+  "artist": "DDG",
+  "rank": "83"
+ },
+ {
+  "title": "Drankin N Smokin",
+  "artist": "Future \u0026 Lil Uzi Vert",
+  "rank": "84"
+ },
+ {
+  "title": "One Too Many",
+  "artist": "Keith Urban Duet With P!nk",
+  "rank": "85"
+ },
+ {
+  "title": "Still Trappin'",
+  "artist": "Lil Durk \u0026 King Von",
+  "rank": "86"
+ },
+ {
+  "title": "Quicksand",
+  "artist": "Morray",
+  "rank": "87"
+ },
+ {
+  "title": "Chicken Tendies",
+  "artist": "Clinton Kane",
+  "rank": "88"
+ },
+ {
+  "title": "Pick Up Your Feelings",
+  "artist": "Jazmine Sullivan",
+  "rank": "89"
+ },
+ {
+  "title": "ZaZa",
+  "artist": "6ix9ine",
+  "rank": "90"
+ },
+ {
+  "title": "Almost Maybes",
+  "artist": "Jordan Davis",
+  "rank": "91"
+ },
+ {
+  "title": "Made For You",
+  "artist": "Jake Owen",
+  "rank": "92"
+ },
+ {
+  "title": "Glad You Exist",
+  "artist": "Dan + Shay",
+  "rank": "93"
+ },
+ {
+  "title": "Afterglow",
+  "artist": "Ed Sheeran",
+  "rank": "94"
+ },
+ {
+  "title": "Cover Me Up",
+  "artist": "Morgan Wallen",
+  "rank": "95"
+ },
+ {
+  "title": "The Business",
+  "artist": "Tiesto",
+  "rank": "96"
+ },
+ {
+  "title": "Hello",
+  "artist": "Pop Smoke Featuring A Boogie Wit da Hoodie",
+  "rank": "97"
+ },
+ {
+  "title": "Monster",
+  "artist": "Shawn Mendes \u0026 Justin Bieber",
+  "rank": "98"
+ },
+ {
+  "title": "Track Star",
+  "artist": "Mooski",
+  "rank": "99"
+ },
+ {
+  "title": "Like I Want You",
+  "artist": "Giveon",
+  "rank": "100"
+ }
+]

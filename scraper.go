@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"testing"
 
 	"github.com/gocolly/colly"
 )
@@ -55,6 +56,12 @@ func startServer() {
 	createFile(songs)
 	http.HandleFunc("/", renderSongsHandler)
 	log.Fatal(http.ListenAndServe(":10000", nil))
+}
+
+func testSongs(t *testing.T) {
+	if len(songs) != 100 {
+		t.Fatalf("Incorrect number of songs: %s", len(songs))
+	}
 }
 
 func main() {
